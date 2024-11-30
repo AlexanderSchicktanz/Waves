@@ -1,4 +1,4 @@
 @echo off
-gcc main.c -o main.exe -lraylib
-strip main.exe
-main.exe
+gcc simulation.c -o simulation.exe -lraylib
+strip simulation.exe
+simulation.exe
